@@ -1,0 +1,12 @@
+Version 1.1.0
+Requires Unity 2017.4.8f1 +
+
+  - Created UnSubscribe methods in Signaler singleton. This is a faster and easier way to unsubscribe than caching subscriptions.
+  - Updated Asteroid demo to use new UnSubscribe methods.
+
+
+Version 1.0.0
+Requires Unity 5.6.6f2+
+2018/9/20
+
+    First Release
