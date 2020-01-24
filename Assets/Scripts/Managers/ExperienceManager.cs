@@ -137,6 +137,7 @@ public class ExperienceManager : SerializedMonoBehaviour, ISubscriber
     {
         ChangeState(ExperienceState.None);
         car.transform.position = Vector3.zero;
+        car.transform.rotation = Quaternion.identity;
         Sequence mainSequence = DOTween.Sequence();
         mainSequence.InsertCallback(0f, () => Continue());
     }
